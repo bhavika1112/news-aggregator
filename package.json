@@ -1,6 +1,6 @@
 {
   "name": "news-aggregator",
-  "homepage": "https://bhavika1112.github.io/news-aggregator",
+  "homepage": ".",
   "version": "1.0.0",
   "description": "A React-based news aggregator application",
   "main": "index.js",
