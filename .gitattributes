@@ -1,0 +1,32 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Specific settings for common file types in React projects
+*.js     text
+*.jsx    text
+*.ts     text
+*.tsx    text
+*.json   text
+*.css    text
+*.scss   text
+*.html   text
+*.md     text
+*.yml    text
+*.yaml   text
+*.graphql text
+
+# Treat binary files as binary (no conversion)
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.eot    binary
+*.ttf    binary
+*.woff   binary
+*.woff2  binary
+*.pdf    binary
+
+# Optional: prevent Git from touching build files or dependencies
+/build/*   -text
+/node_modules/* -text
